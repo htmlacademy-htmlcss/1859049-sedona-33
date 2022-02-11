@@ -1,0 +1,65 @@
+body {
+    font-family: "PT Sans";
+    font-style: normal;
+    font-size: 16px;
+}
+
+.index-background{
+    background: no-repeat center url("../img/index-background.png ") ;  
+    width:1200px;
+    height:485px;
+    }
+
+.main-welcome {
+    padding-left: 411px;
+    padding-top: 300px;
+    width:458px;
+    height:352px;
+    
+        background: url("../img/welcome.png") no-repeat 411px 116px;  
+         
+    }
+.navigation{ 
+display: flex;
+flex-direction:row;
+}   
+.ul1{
+display: flex;
+justify-content: space-around;
+margin-right: auto;
+}    
+.ul2{
+    display: flex;   
+    justify-content: space-around;
+margin-left: auto;
+}
+.navigation-item{
+margin-right: 33px;
+}
+.main-first-screen{
+    padding-top: 63px;
+    padding-left: 280px;
+    width: 1200px;
+    height: 282px; 
+    background: #FFFFFF;
+}
+.advantages-city{
+    background: #83B3D3;
+    color: #FFFFFF;
+}
+.advantages-foto{
+    display:grid;
+    grid-column: 2 / 3;
+    }
+
+.advantages{
+    margin:0;
+    padding:0;
+    display:grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows:384px 384px 384px 384px;
+    width: 1200px;
+    height: 1535px;
+    text-align: center;
+   
+}
