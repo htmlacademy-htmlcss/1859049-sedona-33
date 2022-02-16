@@ -1,82 +1,121 @@
 @font-face {
-    font-family: "PT Sans";
-    font-style: normal;
-    font-weight: 400;
-    src: url("fonts/ptsans-400.woff2") format("woff2");
-    font-display: swap;
-  }
-  
-  @font-face {
-    font-family: "PT Sans";
-    font-style: normal;
-    font-weight: 700;
-    src: url("fonts/pt-sans-bold.woff2") format("woff2");
-    font-display: swap;
-  }
-  
-  body {
-    font-family: "PT Sans";
-    font-style: normal;
-    font-size: 16px;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
 }
 
-.index-background{
-    background: no-repeat center url("../img/index-background.png ") ;  
-    width:1200px;
-    height:485px;
-    }
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("fonts/pt-sans-bold.woff2") format("woff2");
+  font-display: swap;
+}
 
+body {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-size: 16px;
+}
+
+.index-background {
+  background: no-repeat center url("../img/index-background.png ");
+  width: 1200px;
+  height: 485px;
+}
+ 
 .main-welcome {
-    padding-left: 411px;
-    padding-top: 300px;
-    width:458px;
-    height:352px;
-    
-        background: url("../img/welcome.png") no-repeat 411px 116px;  
-         
-    }
-.navigation{ 
-    
-display: flex;
-flex-direction:row;
-}   
-.ul1{
-display: flex;
-justify-content: space-around;
-margin-right: auto;
-}    
-.ul2{
-    display: flex;   
-    justify-content: space-around;
-margin-left: auto;
-}
-.navigation-item{
-margin-right: 33px;
-}
-.main-first-screen{
-    padding-top: 63px;
-    padding-left: 280px;
-    width: 1200px;
-    height: 282px; 
-    background: #FFFFFF;
-}
-.advantages-city{
-    background: #83B3D3;
-    color: #FFFFFF;
-}
-.advantages-foto{
-    display:grid;
-    grid-column: 2 / 3;
-    }
+  padding-left: 411px;
+  padding-top: 300px;
+  width: 458px;
+  height: 352px;
 
-.advantages{
-    margin:0;
-    padding:0;
-    display:grid;
-    grid-template-columns: 400px 400px 400px;
-    grid-template-rows:384px 384px 384px 384px;
-    width: 1200px;
-    height: 1535px;
-    text-align: center;
-   
+  background: url("../img/welcome.png") no-repeat 411px 116px;
+}
+
+.navigation {
+  font-family: "PT Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+  width: 1200px;
+  flex-direction: row;
+}
+
+.nav-left {
+  display: flex;
+  justify-content: space-around;
+  margin-right: auto;
+}
+
+.nav-right {
+  display: flex;
+  justify-content: space-around;
+  margin-left: auto;
+}
+
+.navigation-item {
+  margin-right: 33px;
+}
+
+.main-first-screen h1 {
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.main-first-screen p {
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.main-first-screen {
+  font-family: "PT Sans", sans-serif;
+  padding-top: 63px;
+  padding-left: 280px;
+  width: 1200px;
+  height: 282px;
+  background: #ffffff;
+}
+
+.advantages-city {
+  background: #83b3d3;
+  color: #ffffff;
+}
+
+.advantages h2 {
+  font-family: "PT Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.advantages p {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.advantages-home
+  .advantages-gift
+  .advantages-area
+  .advantages-root
+  .advantages-tourist {
+  background: #83b3d3;
+}
+
+.advantages-food {
+  background: #ffffff;
+}
+
+.advantages {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  width: 400px;
+  height: 384px;
+  text-align: center;
+  background: #83b3d3;
 }
